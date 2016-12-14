@@ -22,5 +22,8 @@ setup mjpg-streamer server on raspberry pi (raspbian)
 if error message in "videodev.h" `$ sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h`
   
   
-###6. start streamer
+###6. setup username and password in streamer.sh
+change 'username':'password' in line 26, 27
+
+###7. start streamer
     $ ./streamer.sh start
